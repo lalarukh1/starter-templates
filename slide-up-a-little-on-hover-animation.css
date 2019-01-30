@@ -1,0 +1,8 @@
+.card {
+    margin-bottom: 30px;
+    transition: all .2s cubic-bezier(.4,0,.2,1);
+}
+.card:hover {
+    -webkit-transform: translate3d(0,-10px,0);
+    transform: translate3d(0,-10px,0);
+}
